@@ -1,0 +1,15 @@
+# Ignorar binarios y objetos
+*.o
+encrypt_server
+
+# Ignorar dependencias temporales
+*.log
+*.tmp
+
+# Ignorar carpetas comunes de desarrollo
+.git
+.vscode
+__pycache__/
+
+# Ignorar archivos del sistema/macOS
+.DS_Store

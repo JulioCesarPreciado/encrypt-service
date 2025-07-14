@@ -1,0 +1,24 @@
+# Binarios de compilación
+encrypt_server
+*.o
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos Python (tests, scripts)
+*.py
+__pycache__/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Entornos de desarrollo
+.vscode/
+.idea/
+
+# Git y Docker
+.git/
+docker-compose.override.yml
